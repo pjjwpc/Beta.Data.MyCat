@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFrameworks>net452;net48;netstandard2.0;netstandard2.1;net5.0;</TargetFrameworks>
+    <PackageIcon>favicon.ico</PackageIcon>
+    <RepositoryUrl>https://github.com/pjjwpc/Beta.Data.MyCat.git</RepositoryUrl>
+    <Description>基于mysql.data 改造的适用于MyCat的组件</Description>
+    <PackageReleaseNotes>基于mysql.data 改造的适用于MyCat的组件</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Google.Protobuf" Version="3.11.4" />
@@ -102,5 +107,12 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>ResourcesX.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\zpwang\Desktop\favicon.ico">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 </Project>

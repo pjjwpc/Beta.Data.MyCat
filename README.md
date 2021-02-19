@@ -14,7 +14,7 @@ Beta.Data.MyCat 组件是在mysql.data组件的基础上改的，里面**百分�
 定义链接字符串：
 
 ```c#
-string con = "dbtype=sqlserver;server=172.17.12.174;Port=8066;uid=root;pwd=xxxxx;database=xxxx;sslmode=none;Charset=utf8mb4;pooling=true;keepalive=1";
+string con = "dbtype=sqlserver;server=xxxx;Port=8066;uid=root;pwd=xxxxx;database=xxxx;sslmode=none;Charset=utf8mb4;pooling=true;keepalive=1";
 ```
 
 其他的使用方法与mysql.data组件没有任何差别，与Dapper结合使用更佳。

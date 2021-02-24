@@ -18,5 +18,6 @@ string con = "dbtype=sqlserver;server=xxxx;Port=8066;uid=root;pwd=xxxxx;database
 ```
 
 其他的使用方法与mysql.data组件没有任何差别，与Dapper结合使用更佳。
+Linux平台下链接字符串需要吧keepalive去掉，操作系统不支持
 
 后面再看看能不能跟EfCore结合。
